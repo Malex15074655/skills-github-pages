@@ -1,0 +1,116 @@
+/* Estilos globales */
+body {
+    margin: 0;
+    padding: 0;
+    font-family: Arial, sans-serif;
+    background-color: #1c1c1c; 
+    color: rgb(240, 231, 231);
+}
+
+header {
+    background-color: #083b63; 
+    color: rgb(47, 34, 66);
+    padding: 20px;
+}
+
+header h1 {
+    margin: 0;
+}
+
+nav ul {
+    list-style: none;
+    display: flex;
+    margin: 0;
+    padding: 0;
+}
+
+nav ul li {
+    margin-right: 15px;
+}
+
+nav ul li a {
+    color: #fcfaf6; 
+    text-decoration: none;
+    font-weight: bold;
+}
+
+main {
+    padding: 20px;
+    background-color: #2d3436; 
+}
+
+.destinos {
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+}
+
+.destino {
+    background-color: #588abd;
+    border: 1px solid #e2d9d8; 
+    border-radius: 6px;
+    width: 250px;
+    margin: 10px;
+    text-align: center;
+}
+
+.destino h3 {
+    background-color: #4b0d12; /* Verde claro para los títulos */
+    color: rgb(243, 239, 240);
+    margin: 0;
+    padding: 10px;
+    border-radius: 6px 6px 0 0;
+}
+
+.destino img {
+    width: 100%;
+    height: auto;
+    border-radius: 0 0 6px 6px;
+}
+
+footer {
+    background-color: #270101; /* Fondo negro con un tono más claro */
+    color: rgb(240, 230, 230);
+    text-align: center;
+    padding: 10px;
+    position: relative;
+}
+
+footer p {
+    margin: 0;
+}
+
+/* Estilos para el formulario de login */
+main form {
+    display: flex;
+    flex-direction: column;
+    max-width: 300px;
+    margin: 0 auto;
+}
+
+main form label {
+    margin-top: 10px;
+    color: #00020e; /* Gris claro para las etiquetas */
+}
+
+main form input {
+    padding: 8px;
+    margin-top: 5px;
+    border: 1px solid #e74c3c; /* Borde rojo */
+    background-color: #34495e; /* Fondo gris oscuro para inputs */
+    color: white;
+}
+
+main form button {
+    margin-top: 15px;
+    padding: 10px;
+    background-color: #3a0904; /* Rojo para el botón */
+    color: rgb(194, 102, 102);
+    border: none;
+    cursor: pointer;
+}
+
+main form button:hover {
+    background-color: #e0d5d3; /* Rojo más oscuro al hacer hover */
+}
+

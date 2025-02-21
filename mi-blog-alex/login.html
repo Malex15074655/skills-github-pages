@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Inicio de Sesión - Blog de Películas</title>
+  <link rel="stylesheet" href="assets/css/style.css">
+</head>
+<body>
+  <header>
+    <h1>Blog de Películas</h1>
+  </header>
+
+  <main>
+    <h2>Iniciar Sesión</h2>
+    <form id="loginForm">
+      <label for="username">Usuario:</label>
+      <input type="text" id="username" name="username" required>
+
+      <label for="password">Contraseña:</label>
+      <input type="password" id="password" name="password" required>
+
+      <button type="submit">Entrar</button>
+    </form>
+    <p id="mensajeError" style="color:red; display:none;">Usuario o contraseña incorrectos.</p>
+  </main>
+
+  <footer>
+    <p>Blog de Películas - Destino Final es una franquicia cinematográfica propiedad de New Line Cinema y Warner Bros &copy; 2025</p>
+  </footer>
+
+  <script src="assets/js/login.js"></script>
+</body>
+</html>
+
